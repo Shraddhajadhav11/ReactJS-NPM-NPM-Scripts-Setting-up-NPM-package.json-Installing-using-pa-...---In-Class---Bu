@@ -9,7 +9,7 @@ function App() {
   return (
     <div id="main">
       <button id="click" onClick={showFn}>
-        Show
+        Show{" "}
       </button>
       {show === true && (
         <p id="para">
